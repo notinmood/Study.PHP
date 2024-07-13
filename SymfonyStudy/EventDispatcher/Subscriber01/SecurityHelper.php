@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\SymfonyStudy\EventDispatcher\Subscriber01;
+namespace PHPStudy\SymfonyStudy\EventDispatcher\Subscriber01;
 
 use Hiland\Utils\Data\ObjectHelper;
 use Hiland\Utils\IO\ConsoleHelper;

@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\IOC_DI_Practice\Stage06AdvancedContainer;
+namespace PHPStudy\PatternStudy\IOC_DI_Practice\Stage06AdvancedContainer;
 
 class A
 {

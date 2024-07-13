@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\ChainOfResponsibilities3;
+namespace PHPStudy\PatternStudy\ChainOfResponsibilities3;
 
 // 宾利 Handler 1
 class BentleyHandler extends Handler

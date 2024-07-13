@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\Observer2;
+namespace PHPStudy\PatternStudy\Observer2;
 
 use SplObserver;
 use SplSubject;

@@ -16,7 +16,7 @@
 
 require "../vendor/autoload.php";
 
-use PHP\Study\ArrayAccessStudy\ArrayAndObjectAccess;
+use PHPStudy\ArrayAccessStudy\ArrayAndObjectAccess;
 
 $target = new ArrayAndObjectAccess();
 

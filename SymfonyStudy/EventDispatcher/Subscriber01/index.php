@@ -9,10 +9,10 @@
  */
 
 use Hiland\Utils\IO\ConsoleHelper;
-use PHP\Study\SymfonyStudy\EventDispatcher\Subscriber01\DBBiz;
-use PHP\Study\SymfonyStudy\EventDispatcher\Subscriber01\FileBiz;
-use PHP\Study\SymfonyStudy\EventDispatcher\Subscriber01\Order;
-use PHP\Study\SymfonyStudy\EventDispatcher\Subscriber01\SecurityHelper;
+use PHPStudy\SymfonyStudy\EventDispatcher\Subscriber01\DBBiz;
+use PHPStudy\SymfonyStudy\EventDispatcher\Subscriber01\FileBiz;
+use PHPStudy\SymfonyStudy\EventDispatcher\Subscriber01\Order;
+use PHPStudy\SymfonyStudy\EventDispatcher\Subscriber01\SecurityHelper;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 
 require "../../../vendor/autoload.php";

@@ -9,11 +9,11 @@
  */
 
 
-namespace PHP\Study\PatternStudy\TemplateMethod\Tests;
+namespace PHPStudy\PatternStudy\TemplateMethod\Tests;
 
 
-use PHP\Study\PatternStudy\TemplateMethod\BeachJourney;
-use PHP\Study\PatternStudy\TemplateMethod\CityJourney;
+use PHPStudy\PatternStudy\TemplateMethod\BeachJourney;
+use PHPStudy\PatternStudy\TemplateMethod\CityJourney;
 use PHPUnit\Framework\TestCase;
 
 /**

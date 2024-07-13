@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PHPStormTips\res;
+namespace PHPStudy\PHPStormTips\res;
 
 class Student
 {

@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_IOC;
+namespace PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_IOC;
 
 interface CanDisplay
 {

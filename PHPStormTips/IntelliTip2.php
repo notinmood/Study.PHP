@@ -9,9 +9,9 @@
  */
 
 
-namespace PHP\Study\PHPStormTips;
+namespace PHPStudy\PHPStormTips;
 
-use PHP\Study\PHPStormTips\res\Student;
+use PHPStudy\PHPStormTips\res\Student;
 
 class IntelliTip2
 {

@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\StatePattern2;
+namespace PHPStudy\PatternStudy\StatePattern2;
 
 /**
  * 电梯状态类(在某状态下都可以执行什么动作,不可以执行什么动作;

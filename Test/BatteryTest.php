@@ -8,9 +8,9 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\ComposerStudy;
+namespace PHPStudy\ComposerStudy;
 
-use PHP\Study\PatternStudy\ComposerPattern\Battery;
+use PHPStudy\PatternStudy\ComposerPattern\Battery;
 use PHPUnit\Framework\TestCase;
 
 class BatteryTest extends TestCase

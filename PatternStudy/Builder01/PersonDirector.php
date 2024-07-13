@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\Builder01;
+namespace PHPStudy\PatternStudy\Builder01;
 
 
 // 指挥者(Director)是Builder模式中一个非常重要的类，用它来控制建造过程，也用来隔离用户与建造过程的关联。

@@ -17,10 +17,10 @@
 
 require "../../vendor/autoload.php";
 
-use PHP\Study\PatternStudy\ChainOfResponsibilities1\HighHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities1\LowerHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities1\MiddleHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities1\Request;
+use PHPStudy\PatternStudy\ChainOfResponsibilities1\HighHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities1\LowerHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities1\MiddleHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities1\Request;
 
 $request= new Request("学习成绩", 85);
 
@@ -35,9 +35,6 @@ $result= "hello world!";
 try {
     $result = $lh->handle($request);
 } catch (Exception $e) {
-    echo "$e";
+    echo (string)$e;
 }
-echo "$result";
-
-
-
+echo (string)$result;

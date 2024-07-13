@@ -13,7 +13,7 @@
  * (将实例方法转成静态方法)
  */
 
-use PHP\Study\MagicMethodStudy\MethodFromEntityToStatic\Student;
+use PHPStudy\MagicMethodStudy\MethodFromEntityToStatic\Student;
 
 require "../../vendor/autoload.php";
 

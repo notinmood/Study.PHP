@@ -1,6 +1,8 @@
 <?php
 
-namespace PHP\Study\KeyWordStudy;
+
+namespace PHPStudy\KeyWordStudy\ClassKeyWordStudy;
+
 require "../../vendor/autoload.php";
 
 use Hiland\Utils\Environment\EnvHelper;
@@ -15,7 +17,7 @@ use Hiland\Utils\Environment\EnvHelper;
  */
 class Demo
 {
-    public function test()
+    public function test(): void
     {
         // code...
     }
@@ -24,5 +26,6 @@ class Demo
 echo gettype(Demo::class), EnvHelper::getNewLineSymbol();
 echo Demo::class, EnvHelper::getNewLineSymbol();
 
-
-
+// -- Output:
+// string
+// PHPStudy\KeyWordStudy\ClassKeyWordStudy\Demo

@@ -14,7 +14,7 @@
  * 缺点:不能让IDE支持智能语法提示。
  */
 
-use PHP\Study\OptionalStudy\res\Foo;
+use PHPStudy\OptionalStudy\res\Foo;
 
 require "../vendor/autoload.php";
 require "./function.php";

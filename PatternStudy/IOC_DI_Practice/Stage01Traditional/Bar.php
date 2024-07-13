@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\IOC_DI_Practice\Stage01Traditional;
+namespace PHPStudy\PatternStudy\IOC_DI_Practice\Stage01Traditional;
 
 use Hiland\Utils\IO\ConsoleHelper;
 

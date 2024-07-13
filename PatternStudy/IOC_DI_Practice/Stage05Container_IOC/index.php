@@ -9,10 +9,10 @@
  */
 
 use Hiland\Utils\IO\ConsoleHelper;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_IOC\Bar;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_IOC\Bim;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_IOC\Container;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_IOC\Foo;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_IOC\Bar;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_IOC\Bim;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_IOC\Container;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_IOC\Foo;
 
 require "../../../vendor/autoload.php";
 

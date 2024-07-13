@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\ArrayAccessStudy;
+namespace PHPStudy\ArrayAccessStudy;
 
 use ArrayAccess;
 

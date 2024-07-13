@@ -13,5 +13,5 @@ use Hiland\Utils\Data\ConfigHelper;
 require "../vendor/autoload.php";
 
 $option = "include_path";
-$v = ini_get("$option");
-echo "$v";
+$v = ini_get($option);
+echo "当前配置项[$option]值为：". $v;

@@ -9,9 +9,9 @@
  */
 
 
-namespace PHP\Study\SymfonyStudy\OptionsResolver;
+namespace PHPStudy\SymfonyStudy\OptionsResolver;
 
-use PHP\Study\SymfonyStudy\EventDispatcher\Listener01\SecurityHelper;
+use PHPStudy\SymfonyStudy\EventDispatcher\Listener01\SecurityHelper;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class Mail

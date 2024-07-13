@@ -6,7 +6,7 @@
  * @company: 海澜&润拓
  */
 
-namespace PHP\Study\GetCalledClass_GetClass;
+namespace PHPStudy\GetCalledClass_GetClass;
 
 class MyClassB extends MyClassA
 {

@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\SymfonyStudy\Container_DI;
+namespace PHPStudy\SymfonyStudy\Container_DI;
 
 class Student
 {

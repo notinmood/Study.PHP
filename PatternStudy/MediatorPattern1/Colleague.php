@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\MediatorPattern1;
+namespace PHPStudy\PatternStudy\MediatorPattern1;
 
 /**
  * 抽象同事类

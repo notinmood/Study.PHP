@@ -8,8 +8,8 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\PatternStudy\StatePattern1\Member;
-use PHP\Study\PatternStudy\StatePattern1\PlatinumMemberState;
+use PHPStudy\PatternStudy\StatePattern1\Member;
+use PHPStudy\PatternStudy\StatePattern1\PlatinumMemberState;
 
 require "../../vendor/autoload.php";
 

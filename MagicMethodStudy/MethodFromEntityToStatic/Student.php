@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\MagicMethodStudy\MethodFromEntityToStatic;
+namespace PHPStudy\MagicMethodStudy\MethodFromEntityToStatic;
 
 class Student
 {

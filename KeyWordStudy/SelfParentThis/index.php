@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\KeyWordStudy\self_parent_this\CollegeStudent;
+use PHPStudy\KeyWordStudy\SelfParentThis\CollegeStudent;
 
 require "../../vendor/autoload.php";
 

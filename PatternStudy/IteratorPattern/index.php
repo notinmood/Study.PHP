@@ -10,7 +10,7 @@
 
 require "../../vendor/autoload.php";
 
-use PHP\Study\PatternStudy\IteratorPattern\ConcreteAggregate;
+use PHPStudy\PatternStudy\IteratorPattern\ConcreteAggregate;
 
 /**
  * 1、获取迭代器

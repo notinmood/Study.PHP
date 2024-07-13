@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\Builder01;
+namespace PHPStudy\PatternStudy\Builder01;
 
 class BuilderThinPerson extends BuilderPerson
 {

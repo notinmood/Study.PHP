@@ -8,9 +8,9 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage02IOC\Bar;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage02IOC\Bim;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage02IOC\Foo;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage02IOC\Bar;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage02IOC\Bim;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage02IOC\Foo;
 
 require "../../../vendor/autoload.php";
 

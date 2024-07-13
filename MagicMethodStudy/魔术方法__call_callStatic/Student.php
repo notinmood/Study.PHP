@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\MagicMethodStudy\魔术方法__call_callStatic;
+namespace PHPStudy\MagicMethodStudy\魔术方法__call_callStatic;
 
 /**
  * @method string welcomeName()

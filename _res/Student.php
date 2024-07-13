@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\_res;
+namespace PHPStudy\_res;
 
 class Student
 {
@@ -40,7 +40,7 @@ class Student
         return $this->age;
     }
 
-    public function happyBirthDay()
+    public function happyBirthDay(): void
     {
         $this->age = $this->age + 1;
     }

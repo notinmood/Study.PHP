@@ -9,7 +9,7 @@
  */
 
 
-use PHP\Study\OptionalStudy\Optional;
+use PHPStudy\OptionalStudy\Optional;
 
 if (!function_exists('optional')) {
     /**

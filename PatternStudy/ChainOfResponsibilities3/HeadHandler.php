@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\ChainOfResponsibilities3;
+namespace PHPStudy\PatternStudy\ChainOfResponsibilities3;
 
 // 头结点
 class HeadHandler extends Handler

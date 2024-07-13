@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\StatePattern0;
+namespace PHPStudy\PatternStudy\StatePattern0;
 
 use Hiland\Utils\IO\ConsoleHelper;
 

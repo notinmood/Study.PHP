@@ -6,29 +6,29 @@
 class Arrow
 {
 
-    static $instance;
+    public static Arrow $instance;
 
     /**
      * @return static
      */
-    public static function getInstance()
+    public static function getInstance(): static
     {
-        if (null == Arrow::$instance)
-            Arrow::$instance = new Arrow();
-        return Arrow::$instance;
+        if (null === self::$instance)
+            self::$instance = new self();
+        return self::$instance;
     }
 
-    public function run($rb)
+    public function run($rb): void
     {
 
         $pid = pcntl_fork();
         if ($pid > 0) {
             pcntl_wait($status);
-        } elseif ($pid == 0) {
+        } elseif ($pid === 0) {
             $cid = pcntl_fork();
             if ($cid > 0) {
                 exit();
-            } elseif ($cid == 0) {
+            } elseif ($cid === 0) {
                 $rb();
             } else {
                 exit();

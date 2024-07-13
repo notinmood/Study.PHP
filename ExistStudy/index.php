@@ -11,7 +11,7 @@ require "../vendor/autoload.php";
 
 use Hiland\Utils\Data\BoolHelper;
 use Hiland\Utils\IO\ConsoleHelper;
-use PHP\Study\ExistStudy\MyClass;
+use PHPStudy\ExistStudy\MyClass;
 
 /**
  *

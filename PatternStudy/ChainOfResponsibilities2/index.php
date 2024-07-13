@@ -13,10 +13,10 @@
 require "../../vendor/autoload.php";
 
 use Hiland\Utils\DataConstruct\LinkedList;
-use PHP\Study\PatternStudy\ChainOfResponsibilities2\HighHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities2\LowerHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities2\MiddleHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities2\Request;
+use PHPStudy\PatternStudy\ChainOfResponsibilities2\HighHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities2\LowerHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities2\MiddleHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities2\Request;
 
 
 $linkedList= new LinkedList();

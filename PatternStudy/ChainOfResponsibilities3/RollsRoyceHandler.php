@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\ChainOfResponsibilities3;
+namespace PHPStudy\PatternStudy\ChainOfResponsibilities3;
 
 
 // 劳斯莱斯 Handler 2

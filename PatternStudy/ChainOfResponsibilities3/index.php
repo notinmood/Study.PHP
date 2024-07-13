@@ -25,11 +25,11 @@
 require "../../vendor/autoload.php";
 
 // 责任链中的各个对象
-use PHP\Study\PatternStudy\ChainOfResponsibilities3\BentleyHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities3\HeadHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities3\LamborghiniHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities3\RollsRoyceHandler;
-use PHP\Study\PatternStudy\ChainOfResponsibilities3\TailHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities3\BentleyHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities3\HeadHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities3\LamborghiniHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities3\RollsRoyceHandler;
+use PHPStudy\PatternStudy\ChainOfResponsibilities3\TailHandler;
 
 
 $head = new HeadHandler();

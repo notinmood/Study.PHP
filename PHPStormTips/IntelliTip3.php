@@ -9,9 +9,9 @@
  */
 
 
-namespace PHP\Study\PHPStormTips;
+namespace PHPStudy\PHPStormTips;
 
-use PHP\Study\PHPStormTips\res\Student;
+use PHPStudy\PHPStormTips\res\Student;
 
 /**
  * 本方式来源于 https://ask.csdn.net/questions/847102

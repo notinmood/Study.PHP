@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\ChainOfResponsibilities1;
+namespace PHPStudy\PatternStudy\ChainOfResponsibilities1;
 
 use Hiland\Utils\IO\ConsoleHelper;
 

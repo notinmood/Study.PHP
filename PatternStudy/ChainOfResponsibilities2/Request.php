@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\ChainOfResponsibilities2;
+namespace PHPStudy\PatternStudy\ChainOfResponsibilities2;
 
 class Request
 {

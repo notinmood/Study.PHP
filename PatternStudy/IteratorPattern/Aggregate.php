@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\IteratorPattern;
+namespace PHPStudy\PatternStudy\IteratorPattern;
 
 interface Aggregate
 {

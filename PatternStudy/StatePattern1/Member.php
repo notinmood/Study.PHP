@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\StatePattern1;
+namespace PHPStudy\PatternStudy\StatePattern1;
 
 class Member
 {

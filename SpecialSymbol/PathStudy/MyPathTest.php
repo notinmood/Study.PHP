@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PathStudy;
+namespace PHPStudy\PathStudy;
 
 use PHPUnit\Framework\TestCase;
 

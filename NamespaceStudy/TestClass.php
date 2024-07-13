@@ -1,6 +1,6 @@
 <?php
 
-namespace PHP\Study\NamespaceStudy;
+namespace PHPStudy\NamespaceStudy;
 
 class TestClass
 {

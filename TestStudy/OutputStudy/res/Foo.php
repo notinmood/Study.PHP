@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\TestStudy\OutputStudy\res;
+namespace PHPStudy\TestStudy\OutputStudy\res;
 
 class Foo
 {

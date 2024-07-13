@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\_res;
+namespace PHPStudy\_res;
 
 class CollegeStudent extends Student implements CanWork
 {

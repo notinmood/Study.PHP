@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\IteratorPattern;
+namespace PHPStudy\PatternStudy\IteratorPattern;
 
 class ConcreteIterator implements IIterator
 {

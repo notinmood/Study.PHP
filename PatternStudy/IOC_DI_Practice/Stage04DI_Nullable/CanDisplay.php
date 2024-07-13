@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\IOC_DI_Practice\Stage04DI_Nullable;
+namespace PHPStudy\PatternStudy\IOC_DI_Practice\Stage04DI_Nullable;
 
 interface CanDisplay
 {

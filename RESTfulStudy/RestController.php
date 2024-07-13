@@ -1,6 +1,6 @@
 <?php
 
-namespace PHP\Study\RESTfulStudy;
+namespace PHPStudy\RESTfulStudy;
 require "../vendor/autoload.php";
 
 $view = "";

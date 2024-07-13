@@ -9,9 +9,9 @@
  */
 
 use Hiland\Utils\IO\ConsoleHelper;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage04DI_Nullable\Bar;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage04DI_Nullable\Bim;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage04DI_Nullable\Foo;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage04DI_Nullable\Bar;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage04DI_Nullable\Bim;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage04DI_Nullable\Foo;
 
 require "../../../vendor/autoload.php";
 

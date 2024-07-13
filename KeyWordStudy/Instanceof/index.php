@@ -10,9 +10,9 @@
 
 require "../../vendor/autoload.php";
 
-use PHP\Study\_res\CanWork;
-use PHP\Study\_res\CollegeStudent;
-use PHP\Study\_res\Student;
+use PHPStudy\_res\CanWork;
+use PHPStudy\_res\CollegeStudent;
+use PHPStudy\_res\Student;
 
 $cs = new CollegeStudent("zhangsan", 20);
 

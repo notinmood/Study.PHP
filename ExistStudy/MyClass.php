@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\ExistStudy;
+namespace PHPStudy\ExistStudy;
 
 class MyClass
 {

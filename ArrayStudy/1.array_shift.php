@@ -10,7 +10,6 @@
 
 $a = array("a" => "red", "b" => "green", "c" => "blue");
 $b = array_shift($a);
-
 echo "弹出的元素为：" . $b;
 echo PHP_EOL;
 echo '────────────────────────';

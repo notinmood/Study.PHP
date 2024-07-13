@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\ChainOfResponsibilities3;
+namespace PHPStudy\PatternStudy\ChainOfResponsibilities3;
 
 
 // 尾结点（终极处理器）

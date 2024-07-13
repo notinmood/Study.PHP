@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\TestStudy\OutputStudy\res;
+namespace PHPStudy\TestStudy\OutputStudy\res;
 
 use PHPUnit\Framework\TestCase;
 

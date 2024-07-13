@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage01Traditional\Foo;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage01Traditional\Foo;
 
 require "../../../vendor/autoload.php";
 

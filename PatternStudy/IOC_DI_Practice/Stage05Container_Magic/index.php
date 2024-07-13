@@ -9,10 +9,10 @@
  */
 
 use Hiland\Utils\IO\ConsoleHelper;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_Magic\Bar;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_Magic\Bim;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_Magic\Container;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_Magic\Foo;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_Magic\Bar;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_Magic\Bim;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_Magic\Container;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_Magic\Foo;
 
 require "../../../vendor/autoload.php";
 

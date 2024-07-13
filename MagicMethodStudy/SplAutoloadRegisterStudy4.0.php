@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\MagicMethodStudy\res\MyEntity;
+use PHPStudy\MagicMethodStudy\res\MyEntity;
 
 //4、用spl_autoload_register加载.不为其传递函数参数.要想加载不上目标类型,就需要设置include_path.
 //因为没有参数spl_autoload_register被调用的时候,他会在include_path内查找目标文件.

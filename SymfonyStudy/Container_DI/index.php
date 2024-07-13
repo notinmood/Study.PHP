@@ -8,10 +8,10 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\SymfonyStudy\Container_DI\Card;
-use PHP\Study\SymfonyStudy\Container_DI\Mail;
-use PHP\Study\SymfonyStudy\Container_DI\Poster;
-use PHP\Study\SymfonyStudy\Container_DI\Student;
+use PHPStudy\SymfonyStudy\Container_DI\Card;
+use PHPStudy\SymfonyStudy\Container_DI\Mail;
+use PHPStudy\SymfonyStudy\Container_DI\Poster;
+use PHPStudy\SymfonyStudy\Container_DI\Student;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;
 

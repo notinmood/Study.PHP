@@ -1,6 +1,6 @@
 <?php
 
-namespace PHP\Study\RESTfulStudy;
+namespace PHPStudy\RESTfulStudy;
 
 class SiteRestHandler extends SimpleRest {
 

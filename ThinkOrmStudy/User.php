@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\ThinkOrmStudy;
+namespace PHPStudy\ThinkOrmStudy;
 
 use think\Model;
 

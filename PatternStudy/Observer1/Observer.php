@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\Observer1;
+namespace PHPStudy\PatternStudy\Observer1;
 
 interface Observer
 {

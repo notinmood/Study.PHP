@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\Builder01;
+namespace PHPStudy\PatternStudy\Builder01;
 
 abstract class BuilderPerson
 {
@@ -19,17 +19,15 @@ abstract class BuilderPerson
         $this->person = new Person();
     }
 
-    public abstract function buildHead();
+    abstract public function buildHead();
 
-    public abstract function buildBody();
+    abstract public function buildBody();
 
-    public abstract function buildLeftArm();
+    abstract public function buildLeftArm();
 
-    public abstract function buildRightArm();
+    abstract public function buildRightArm();
 
-    public abstract function buildLeftLeg();
+    abstract public function buildLeftLeg();
 
-    public abstract function buildRightLeg();
-
-
+    abstract public function buildRightLeg();
 }

@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\TestStudy\MockStudy;
+namespace PHPStudy\TestStudy\MockStudy;
 
 class MyClass
 {

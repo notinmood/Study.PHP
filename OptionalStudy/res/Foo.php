@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\OptionalStudy\res;
+namespace PHPStudy\OptionalStudy\res;
 
 class Foo
 {

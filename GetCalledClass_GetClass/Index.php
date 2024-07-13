@@ -1,6 +1,6 @@
 <?php
 
-namespace PHP\Study\GetCalledClass_GetClass;
+namespace PHPStudy\GetCalledClass_GetClass;
 /**
  * 说明:
  * get_class 返回的是get_class这行所在类，包含命名空间的类全名称(即便有派生类,这段代码被派生类继承那么返回的也是原生类的全名称)

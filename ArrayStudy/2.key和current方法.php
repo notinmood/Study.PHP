@@ -25,4 +25,3 @@ var_dump(current($complex1)); // "qingdao"
 $complex2 = array("q" => "qingdao", "b" => "beijing");
 var_dump(key($complex2)); // "q"
 var_dump(current($complex2)); // "qingdao"
-

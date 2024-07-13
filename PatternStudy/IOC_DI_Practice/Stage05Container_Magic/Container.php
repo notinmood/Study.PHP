@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\IOC_DI_Practice\Stage05Container_Magic;
+namespace PHPStudy\PatternStudy\IOC_DI_Practice\Stage05Container_Magic;
 
 /**
  * @property mixed|Bar bar

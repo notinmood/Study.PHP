@@ -1,6 +1,6 @@
 <?php
 
-namespace PHP\Study\RESTfulStudy;
+namespace PHPStudy\RESTfulStudy;
 
 /*
  * 一个简单的 RESTful web services 基类

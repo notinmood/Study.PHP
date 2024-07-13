@@ -10,7 +10,7 @@
 
 namespace PHPStudyPatternStudyBuilder02;
 
-use PHP\Study\PatternStudy\Builder02\PersonBuilder;
+use PHPStudy\PatternStudy\Builder02\PersonBuilder;
 
 require "../../vendor/autoload.php";
 

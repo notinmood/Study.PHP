@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PHPStormTips;
+namespace PHPStudy\PHPStormTips;
 
 /**
  * 因为设置了ins的代码"实时模板",当输入完"ins"再按tab的时候,

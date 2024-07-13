@@ -15,8 +15,8 @@
  */
 
 
-use PHP\Study\ConstructStudy\MyClassB;
-use PHP\Study\ConstructStudy\MyClassC;
+use PHPStudy\ConstructStudy\MyClassB;
+use PHPStudy\ConstructStudy\MyClassC;
 
 require_once "../vendor/autoload.php";
 

@@ -9,7 +9,7 @@
  */
 require "../../vendor/autoload.php";
 
-use PHP\Study\MagicMethodStudy\魔术属性__get_set\Student;
+use PHPStudy\MagicMethodStudy\魔术属性__get_set\Student;
 
 $s    = new Student();
 $city = $s->City;

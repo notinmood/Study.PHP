@@ -9,7 +9,7 @@
  */
 
 
-use PHP\Study\PatternStudy\StatePattern0\Member;
+use PHPStudy\PatternStudy\StatePattern0\Member;
 
 require "../../vendor/autoload.php";
 

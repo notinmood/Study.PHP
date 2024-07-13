@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\ThreadsStudy\S02AsyncThread\ThreadHelper;
+use PHPStudy\ThreadsStudy\S02AsyncThread\ThreadHelper;
 
 require "../../vendor/autoload.php";
 

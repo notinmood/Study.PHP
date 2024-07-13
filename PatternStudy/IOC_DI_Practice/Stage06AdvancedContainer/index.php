@@ -10,8 +10,8 @@
 
 require "../../../vendor/autoload.php";
 
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage06AdvancedContainer\B;
-use PHP\Study\PatternStudy\IOC_DI_Practice\Stage06AdvancedContainer\Container;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage06AdvancedContainer\B;
+use PHPStudy\PatternStudy\IOC_DI_Practice\Stage06AdvancedContainer\Container;
 
 $result = Container::run(B::class, 'getCount', [10]);
 var_dump($result); // result is 20

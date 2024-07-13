@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\SymfonyStudy\EventDispatcher\Listener01;
+namespace PHPStudy\SymfonyStudy\EventDispatcher\Listener01;
 
 
 use Symfony\Contracts\EventDispatcher\Event;

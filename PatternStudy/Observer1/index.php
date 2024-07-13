@@ -11,9 +11,9 @@
 require "../../vendor/autoload.php";
 
 use Hiland\Utils\IO\ConsoleHelper;
-use PHP\Study\PatternStudy\Observer1\BellSubject;
-use PHP\Study\PatternStudy\Observer1\StudentObserve;
-use PHP\Study\PatternStudy\Observer1\TeacherObserver;
+use PHPStudy\PatternStudy\Observer1\BellSubject;
+use PHPStudy\PatternStudy\Observer1\StudentObserve;
+use PHPStudy\PatternStudy\Observer1\TeacherObserver;
 
 $bell = new BellSubject();
 $teacher = new TeacherObserver();

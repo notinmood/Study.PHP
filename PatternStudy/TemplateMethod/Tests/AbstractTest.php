@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\TemplateMethod\Tests;
+namespace PHPStudy\PatternStudy\TemplateMethod\Tests;
 
 use PHPUnit\Framework\TestCase;
 

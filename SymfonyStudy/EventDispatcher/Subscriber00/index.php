@@ -10,8 +10,8 @@
 
 require "../../../vendor/autoload.php";
 
-use PHP\Study\SymfonyStudy\EventDispatcher\Subscriber00\DemoEvent;
-use PHP\Study\SymfonyStudy\EventDispatcher\Subscriber00\DemoSubscriber;
+use PHPStudy\SymfonyStudy\EventDispatcher\Subscriber00\DemoEvent;
+use PHPStudy\SymfonyStudy\EventDispatcher\Subscriber00\DemoSubscriber;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 
 

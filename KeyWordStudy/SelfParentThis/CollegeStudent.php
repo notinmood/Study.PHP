@@ -8,9 +8,9 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\KeyWordStudy\self_parent_this;
+namespace PHPStudy\KeyWordStudy\SelfParentThis;
 
-use PHP\Study\_res\Student;
+use PHPStudy\_res\Student;
 
 class CollegeStudent extends Student
 {
@@ -28,7 +28,7 @@ class CollegeStudent extends Student
      * 1. 关键字 $this 可以调用基类的实例方法
      * @return void
      */
-    public function echoAgeWithThis()
+    public function echoAgeWithThis(): void
     {
         echo $this->getAge();
     }
@@ -37,7 +37,7 @@ class CollegeStudent extends Student
      * 2. 关键字 $this 可以调用本类的实例方法
      * @return void
      */
-    public function echoNameWithThis()
+    public function echoNameWithThis(): void
     {
         echo $this->getName();
     }
@@ -46,8 +46,9 @@ class CollegeStudent extends Student
      * 3. 关键字 self 可以调用本类的实例方法
      * @return void
      */
-    public function echoWork()
+    public function echoWork(): void
     {
+        /** @noinspection all */
         echo self::work("IT Engineer");
     }
 
@@ -55,7 +56,7 @@ class CollegeStudent extends Student
      * 4. 关键字 self 可以调用本类的静态方法
      * @return void
      */
-    public function echoMakeFriends()
+    public function echoMakeFriends(): void
     {
         echo self::makeFriends();
     }
@@ -66,6 +67,7 @@ class CollegeStudent extends Student
      */
     public function echoAgeWithSelf(): string
     {
+        /** @noinspection all */
         return "我是大学生" . self::getAge();
     }
 
@@ -73,7 +75,7 @@ class CollegeStudent extends Student
      * 6. 关键字 self 可以调用基类的静态方法
      * @return void
      */
-    public function echoWalkWithSelf()
+    public function echoWalkWithSelf(): void
     {
         echo self::Walk();
     }
@@ -91,8 +93,9 @@ class CollegeStudent extends Student
      * 8. 关键字 parent 可以调用基类的静态方法
      * @return void
      */
-    public function echoWalk()
+    public function echoWalk(): void
     {
+        /** @noinspection all */
         echo parent::Walk();
     }
 }

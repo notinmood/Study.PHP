@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\SymfonyStudy\OptionsResolver;
+namespace PHPStudy\SymfonyStudy\OptionsResolver;
 
 use PHPUnit\Framework\TestCase;
 

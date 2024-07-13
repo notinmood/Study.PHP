@@ -9,7 +9,7 @@
  */
 
 require "../vendor/autoload.php";
-use PHP\Study\_res\Student;
+use PHPStudy\_res\Student;
 
 $s1 = new Student("zhangsan", 20);
 

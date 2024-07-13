@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\OptionalStudy;
+namespace PHPStudy\OptionalStudy;
 
 use BadMethodCallException;
 use Closure;

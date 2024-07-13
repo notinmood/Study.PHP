@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\IterableStudy;
+namespace IterableStudy;
 
 use ArrayIterator;
 use IteratorAggregate;
@@ -19,9 +19,9 @@ class MyAggregateIterator implements IteratorAggregate
 {
 
     /**
-     * @return Traversable
+     * @return Traversable|ArrayIterator
      */
-    public function getIterator()
+    public function getIterator(): Traversable|ArrayIterator
     {
         return new ArrayIterator();
     }

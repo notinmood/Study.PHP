@@ -10,9 +10,9 @@
 
 require "../../vendor/autoload.php";
 
-use PHP\Study\PatternStudy\MediatorPattern1\ConcreteColleague1;
-use PHP\Study\PatternStudy\MediatorPattern1\ConcreteColleague2;
-use PHP\Study\PatternStudy\MediatorPattern1\ConcreteMediator;
+use PHPStudy\PatternStudy\MediatorPattern1\ConcreteColleague1;
+use PHPStudy\PatternStudy\MediatorPattern1\ConcreteColleague2;
+use PHPStudy\PatternStudy\MediatorPattern1\ConcreteMediator;
 
 $md = new ConcreteMediator();
 

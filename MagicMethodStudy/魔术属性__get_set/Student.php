@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\MagicMethodStudy\魔术属性__get_set;
+namespace PHPStudy\MagicMethodStudy\魔术属性__get_set;
 require "../../vendor/autoload.php";
 
 /**

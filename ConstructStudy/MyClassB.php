@@ -7,10 +7,11 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\ConstructStudy;
+namespace PHPStudy\ConstructStudy;
 
 class MyClassB extends MyClassA
 {
+    /** @noinspection all */
     public function __construct()
     {
         //parent::__construct();

@@ -6,7 +6,7 @@
  * @company: 海澜&润拓
  */
 
-namespace PHP\Study\GetCalledClass_GetClass;
+namespace PHPStudy\GetCalledClass_GetClass;
 
 class MyClassA
 {
@@ -14,7 +14,7 @@ class MyClassA
         echo __CLASS__;
         echo PHP_EOL;
     }
-    
+
     public function itCalledClass(){
         echo get_called_class();
         echo PHP_EOL;

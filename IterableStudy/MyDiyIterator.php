@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\IterableStudy;
+namespace PHPStudy\IterableStudy;
 
 use Iterator;
 

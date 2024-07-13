@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\SymfonyStudy\DotENV;
+namespace PHPStudy\SymfonyStudy\DotENV;
 
 use Dotenv\Dotenv;
 use Hiland\Utils\Environment\EnvHelper;

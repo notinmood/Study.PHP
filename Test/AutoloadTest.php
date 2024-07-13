@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\ComposerStudy;
+namespace PHPStudy\ComposerStudy;
 
 use PHPUnit\Framework\TestCase;
 

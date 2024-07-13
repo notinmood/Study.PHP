@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\ChainOfResponsibilities3;
+namespace PHPStudy\PatternStudy\ChainOfResponsibilities3;
 
 // 兰博基尼 Handler 3
 class LamborghiniHandler extends Handler

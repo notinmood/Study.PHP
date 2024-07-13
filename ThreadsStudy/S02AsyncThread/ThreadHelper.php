@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\ThreadsStudy\S02AsyncThread;
+namespace PHPStudy\ThreadsStudy\S02AsyncThread;
 
 class ThreadHelper
 {

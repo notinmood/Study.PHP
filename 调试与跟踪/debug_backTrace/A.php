@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\调试与跟踪\debug_backTrace;
+namespace PHPStudy\调试与跟踪\debug_backTrace;
 
 class A
 {

@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\SymfonyStudy\EventDispatcher\Listener01;
+namespace PHPStudy\SymfonyStudy\EventDispatcher\Listener01;
 
 use Hiland\Utils\Environment\EnvHelper;
 use Hiland\Utils\IO\ConsoleHelper;

@@ -8,10 +8,10 @@
  * @company: HiLand & RainyTop
  */
 
+
+use PHPStudy\KeyWordStudy\Static_KeyWord\StaticBiz;
+
 require "../../vendor/autoload.php";
-
-use PHP\Study\KeyWordStudy\Static_KeyWord\StaticBiz;
-
 $biz         = StaticBiz::getInstance();
 $biz->myName = "zhangsan";
 

@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\ChainOfResponsibilities3;
+namespace PHPStudy\PatternStudy\ChainOfResponsibilities3;
 
 // 处理请求的责任链结点
 

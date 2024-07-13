@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\EnumStudy;
+namespace PHPStudy\EnumStudy;
 require_once "../vendor/autoload.php";
 
 use Hiland\Utils\Data\Enum;

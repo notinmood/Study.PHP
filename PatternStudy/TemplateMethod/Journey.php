@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\TemplateMethod;
+namespace PHPStudy\PatternStudy\TemplateMethod;
 
 abstract class Journey
 {

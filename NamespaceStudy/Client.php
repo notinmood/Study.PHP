@@ -1,7 +1,7 @@
 <?php
 
 
-namespace PHP\Study\NamespaceStudy;
+namespace PHPStudy\NamespaceStudy;
 
 require "../vendor/autoload.php";
 //require 'TestClass.php';

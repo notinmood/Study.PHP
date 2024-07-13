@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\Builder02;
+namespace PHPStudy\PatternStudy\Builder02;
 
 class Person
 {

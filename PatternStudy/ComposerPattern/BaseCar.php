@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\PatternStudy\ComposerPattern;
+namespace PHPStudy\PatternStudy\ComposerPattern;
 
 abstract class BaseCar implements CarContract
 {

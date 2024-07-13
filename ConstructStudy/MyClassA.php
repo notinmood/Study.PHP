@@ -7,7 +7,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHP\Study\ConstructStudy;
+namespace PHPStudy\ConstructStudy;
 
 class MyClassA
 {

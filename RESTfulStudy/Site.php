@@ -1,6 +1,6 @@
 <?php
 
-namespace PHP\Study\RESTfulStudy;
+namespace PHPStudy\RESTfulStudy;
 
 /*
  * 菜鸟教程 RESTful 演示实例

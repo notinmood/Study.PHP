@@ -14,9 +14,9 @@
  * SplSubject 派生类维护了一个状态，当状态发生变化时 - 比如属性变化等，就会调用 notify() 方法，这时，之前在 attach() 方法中注册的所有 SplObserver 实例的 update() 方法就会被调用。
  */
 
-use PHP\Study\PatternStudy\Observer2\ConcreteObserver1;
-use PHP\Study\PatternStudy\Observer2\ConcreteObserver2;
-use PHP\Study\PatternStudy\Observer2\ConcreteSubject;
+use PHPStudy\PatternStudy\Observer2\ConcreteObserver1;
+use PHPStudy\PatternStudy\Observer2\ConcreteObserver2;
+use PHPStudy\PatternStudy\Observer2\ConcreteSubject;
 
 require "../../vendor/autoload.php";
 

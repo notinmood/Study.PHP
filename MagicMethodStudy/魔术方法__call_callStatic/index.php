@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\MagicMethodStudy\魔术方法__call_callStatic\Student;
+use PHPStudy\MagicMethodStudy\魔术方法__call_callStatic\Student;
 
 require "../../vendor/autoload.php";
 

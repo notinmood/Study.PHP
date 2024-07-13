@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\SymfonyStudy\OptionsResolver\Mail;
+use PHPStudy\SymfonyStudy\OptionsResolver\Mail;
 require "../../vendor/autoload.php";
 
 $option=[];

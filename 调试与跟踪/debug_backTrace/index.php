@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-use PHP\Study\调试与跟踪\debug_backTrace\B;
+use PHPStudy\调试与跟踪\debug_backTrace\B;
 
 require "../../vendor/autoload.php";
 

@@ -9,7 +9,7 @@
  */
 
 
-namespace PHP\Study\PatternStudy\Observer1;
+namespace PHPStudy\PatternStudy\Observer1;
 
 use Hiland\Utils\IO\ConsoleHelper;
 

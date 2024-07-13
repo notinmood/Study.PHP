@@ -9,15 +9,16 @@
  */
 
 
-namespace PHP\Study\PHPStormTips;
+namespace PHPStudy\PHPStormTips;
 
-use PHP\Study\PHPStormTips\res\Student;
+use PHPStudy\PHPStormTips\res\Student;
 
 class IntelliTip1
 {
     private Student $student;
 
-    public function displayName(){
+    public function displayName(): void
+    {
         /**
          * 因为给属性$student指定了类型Student,因此在student后面,加入 -> 的时候,可以智能提示Student的成员列表
          */

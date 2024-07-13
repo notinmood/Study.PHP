@@ -7,7 +7,7 @@
  * @creator: ShanDong Xiedali
  * @company: HiLand & RainyTop
  */
-namespace PHP\Study\PatternStudy\Builder01;
+namespace PHPStudy\PatternStudy\Builder01;
 require "../../vendor/autoload.php";
 
 // 客户端代码
