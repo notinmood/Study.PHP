@@ -3,7 +3,7 @@
         'name' => 'study/php',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '0981e67cff4a09c05285289b0e4076feba121edc',
+        'reference' => '99b8c95696560476ca03ff12af464c315d2ba2b3',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -329,6 +329,17 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'roave/security-advisories' => array(
+            'pretty_version' => 'dev-latest',
+            'version' => 'dev-latest',
+            'reference' => 'c31e886d98723c528ab99e920e7903ccb7391bd0',
+            'type' => 'metapackage',
+            'install_path' => null,
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => true,
+        ),
         'sebastian/cli-parser' => array(
             'pretty_version' => '1.0.1',
             'version' => '1.0.1.0',
@@ -487,7 +498,7 @@
         'study/php' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '0981e67cff4a09c05285289b0e4076feba121edc',
+            'reference' => '99b8c95696560476ca03ff12af464c315d2ba2b3',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

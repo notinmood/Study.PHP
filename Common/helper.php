@@ -12,13 +12,13 @@
 /**
  * @param $name
  */
-function sayBye($name)
+function sayBye($name): void
 {
     echo "Bye,$name";
 }
 
 if (!function_exists('sayHi')) {
-    function sayHi($name)
+    function sayHi($name): void
     {
         echo "Hi,$name";
     }

@@ -20,101 +20,111 @@ class ArrayAndObjectAccess implements ArrayAccess
      * @var array
      * @access private
      */
-    private array $data = [];
+    private array $container = [];
 
     /**
      * Get a data by key
-     * @param string The key data to retrieve
+     * @param string $key The key data to retrieve
      * @access public
      */
-    public function __get($key)
+    public function __get(string $key)
     {
-        return $this->data[$key];
+        return $this->container[$key];
     }
 
     /**
      * Assigns a value to the specified data
-     * @param string The data key to assign the value to
-     * @param mixed  The value to set
+     * @param string $key The data key to assign the value to
+     * @param mixed $value The value to set
      * @access public
      */
-    public function __set($key, $value)
+    public function __set(string $key, mixed $value)
     {
-        $this->data[$key] = $value;
+        $this->container[$key] = $value;
     }
 
     /**
      * Whether a data exists by key
-     * @param string A data key to check for
+     * @param string $key
+     * @return bool
+     */
+    public function __isset(string $key)
+    {
+        return isset($this->container[$key]);
+    }
+
+    /**
+     * Whether a data exists by key
+     * @param string $key A data key to check for
      * @access      public
      * @return boolean
      * @abstracting ArrayAccess
      */
-    public function isContains($key): bool
+    public function isContains(string $key): bool
     {
-        return isset($this->data[$key]);
+        return isset($this->container[$key]);
     }
 
     /**
-     * Unsets an data by key
-     * @param string The key to unset
+     * Unsets a data by key
+     * @param string $key The key to unset
      * @access public
      */
-    public function remove($key)
+    public function remove(string $key): void
     {
-        unset($this->data[$key]);
+        unset($this->container[$key]);
     }
 
     /**
      * Assigns a value to the specified offset
-     * @param string The offset to assign the value to
-     * @param mixed  The value to set
+     * @param string $offset The offset to assign the value to
+     * @param mixed $value The value to set
      * @access      public
      * @abstracting ArrayAccess
      */
-    public function offsetSet($offset, $value)
+    public function offsetSet($offset, mixed $value): void
     {
         if (is_null($offset)) {
-            $this->data[] = $value;
+            $this->container[] = $value;
         } else {
-            $this->data[$offset] = $value;
+            $this->container[$offset] = $value;
         }
     }
 
     /**
      * Unsets an offset
-     * @param string The offset to unset
+     * @param string $offset The offset to unset
      * @access      public
      * @abstracting ArrayAccess
      */
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void
     {
         if ($this->offsetExists($offset)) {
-            unset($this->data[$offset]);
+            unset($this->container[$offset]);
         }
     }
 
     /**
-     * Whether or not an offset exists
-     * @param string An offset to check for
+     * Whether an offset exists
+     * @param string $offset An offset to check for
      * @access      public
      * @return boolean
      * @abstracting ArrayAccess
      */
     public function offsetExists($offset): bool
     {
-        return isset($this->data[$offset]);
+        return isset($this->container[$offset]);
     }
 
     /**
      * Returns the value at specified offset
-     * @param string The offset to retrieve
+     * @param string $offset The offset to retrieve
      * @access      public
      * @return mixed
      * @abstracting ArrayAccess
      */
-    public function offsetGet($offset)
+    public function offsetGet($offset): mixed
     {
-        return $this->offsetExists($offset) ? $this->data[$offset] : null;
+        return $this->offsetExists($offset) ? $this->container[$offset] : null;
     }
 }
