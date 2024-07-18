@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-$func= function ($name){
+$func= static function ($name){
     echo "hi,".$name;
 };
 
