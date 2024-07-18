@@ -16,43 +16,35 @@ use Iterator;
 class MyDiyIterator implements Iterator
 {
 
-    /**
-     * @return mixed
-     */
+    private array $_data;
+
+    public function __construct(Array $arr)
+    {
+        $this->_data = $arr;
+    }
+
     public function current()
     {
-        // TODO: Implement current() method.
+        return current($this->_data);
     }
 
-    /**
-     *
-     */
-    public function next()
-    {
-        // TODO: Implement next() method.
-    }
-
-    /**
-     * @return bool|float|int|string|null
-     */
     public function key()
     {
-        // TODO: Implement key() method.
+        return key($this->_data);
     }
 
-    /**
-     * @return bool
-     */
-    public function valid()
+    public function next(): void
     {
-        // TODO: Implement valid() method.
+        next($this->_data);
     }
 
-    /**
-     *
-     */
-    public function rewind()
+    public function rewind(): void
     {
-        // TODO: Implement rewind() method.
+        reset($this->_data);
+    }
+
+    public function valid(): bool
+    {
+        return $this->key() !== NULL;
     }
 }

@@ -9,15 +9,17 @@
  */
 
 namespace PHPStudy\EnumStudy;
+
 require_once "../vendor/autoload.php";
 
 use Hiland\Utils\Data\Enum;
+use UnexpectedValueException;
 
 class MyEnum extends Enum
 {
-    const HI = "hi";
-    const BYE = "good bye";
-    const __default = self::HI;
+    public const HI = "hi";
+    public const BYE = "good bye";
+    public const __default = self::HI;
 }
 
 var_dump(new MyEnum());
@@ -26,6 +28,6 @@ var_dump(new MyEnum("hi"));
 
 try {
     new MyEnum("I don't exist");
-} catch (Exception $e) {
+} catch (UnexpectedValueException $e) {
     var_dump($e->getMessage());
 }

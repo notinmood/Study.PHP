@@ -9,7 +9,7 @@
  */
 
 
-namespace IterableStudy;
+namespace PHPStudy\IterableStudy;
 
 use ArrayIterator;
 use IteratorAggregate;
@@ -17,12 +17,17 @@ use Traversable;
 
 class MyAggregateIterator implements IteratorAggregate
 {
+    private array $_data;
+    public function __construct(array $arr)
+    {
+        $this->_data = $arr;
+    }
 
     /**
      * @return Traversable|ArrayIterator
      */
     public function getIterator(): Traversable|ArrayIterator
     {
-        return new ArrayIterator();
+        return new ArrayIterator($this->_data);
     }
 }
