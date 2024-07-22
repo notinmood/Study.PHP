@@ -23,6 +23,7 @@ class CSClass
 $a1 = [1, 2, 3, 4, 5];
 $a2 = [6, 7, 8, 9, 10];
 
-// $r = array_map('CSClass::addItem', $a1, $a2);
-$r = array_map(array('CSClass', 'addItem'), $a1, $a2);
+$r = array_map('CSClass::addItem', $a1, $a2);
+// 或者
+//$r = array_map(array('CSClass', 'addItem'), $a1, $a2);
 var_dump($r);

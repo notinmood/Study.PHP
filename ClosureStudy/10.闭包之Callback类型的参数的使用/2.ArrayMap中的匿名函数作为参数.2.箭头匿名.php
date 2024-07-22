@@ -12,8 +12,7 @@
 $a1 = [1, 2, 3, 4, 5];
 $a2 = [6, 7, 8, 9, 10];
 
-$r = array_map(function ($ia, $ib) {
-    return $ia + $ib;
-}, $a1, $a2);
+$r = array_map(static fn ($ia, $ib) =>$ia + $ib, $a1, $a2);
 
-var_dump($r);
+print_r($r);
+// 输出结果:Array ( [0] => 7 [1] => 9 [2] => 11 [3] => 13 [4] => 15 )

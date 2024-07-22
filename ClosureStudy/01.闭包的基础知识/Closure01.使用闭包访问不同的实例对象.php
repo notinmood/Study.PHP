@@ -8,6 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
+
 /**
  * bind的第二个参数为 null 还是 object，取决于第一个闭包是否用到了 $this 的上下文环境。绑定的对象决定了函数中的 $this 的取值。
  */
@@ -16,20 +17,22 @@ class FooClass
     public int $pFoo = 3;
 }
 
-$cc = function () {
+$closure = function () {
     return $this->pFoo;
 };
 
-$aaa       = new FooClass();
-$bbb       = new FooClass();
-$bbb->pFoo = 5;
+$fooA       = new FooClass();
+$fooB       = new FooClass();
+$fooA->pFoo = 3;
+$fooB->pFoo = 5;
 
-//$cc中用到了$this,必须有$this的上下文环境
-$bcl2 = Closure::bind($cc, $aaa);
+//$closure 中用到了$this,必须有$this的上下文环境
+$bcl2 = Closure::bind($closure, $fooA);
 echo $bcl2() . PHP_EOL;    //3
 
+
 //将闭包绑定到不同的对象实例上,得到不同的值
-$bcl2 = Closure::bind($cc, $bbb);
+$bcl2 = Closure::bind($closure, $fooB);
 echo $bcl2() . PHP_EOL;    //5
 
 // //以下做法就会出现错误

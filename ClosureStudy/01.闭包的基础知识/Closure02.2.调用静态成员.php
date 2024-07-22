@@ -11,6 +11,7 @@
 /**
  * 本文件演示的是,通过第三个参数,将闭包函数注入到类型内部,访问类型的静态成员
  */
+/** @noinspection all */
 class BarClass
 {
     private static int $sFoo = 100;
@@ -23,6 +24,8 @@ class BarClass
 $cfs = static function () {
     return BarClass::$sFoo;
 };
+
+
 
 /**
  * 实例闭包函数
