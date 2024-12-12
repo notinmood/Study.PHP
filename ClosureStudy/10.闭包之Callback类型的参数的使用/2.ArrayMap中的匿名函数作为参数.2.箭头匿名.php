@@ -14,5 +14,5 @@ $a2 = [6, 7, 8, 9, 10];
 
 $r = array_map(static fn ($ia, $ib) =>$ia + $ib, $a1, $a2);
 
-print_r($r);
+var_dump($r);
 // 输出结果:Array ( [0] => 7 [1] => 9 [2] => 11 [3] => 13 [4] => 15 )

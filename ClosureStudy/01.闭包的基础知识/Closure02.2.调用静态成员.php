@@ -49,3 +49,4 @@ echo $vcf() . PHP_EOL;
 
 $vcf = Closure::bind($cfe, null, BarClass::class);
 echo $vcf() . PHP_EOL;
+

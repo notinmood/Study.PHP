@@ -17,7 +17,7 @@
  * @param array $array 数组
  * @return array 返回一个新的数组，包含回调函数对数组的每个元素的返回值。
  */
-
+var_dump("一、以下是使用array_map函数调用外部函数和匿名函数对数组中的元素进行操作的例子");
 // 原始数组
 $numbers = array(1, 2, 3, 4, 5);
 
@@ -38,3 +38,31 @@ $squaredNumbers = array_map(static function($number) {
 }, $numbers);
 var_dump($squaredNumbers);
 // 输出：Array ( [0] => 1 [1] => 4 [2] => 9 [3] => 16 [4] => 25 )
+
+
+var_dump("--------------------------");
+var_dump("二、以下是使用map函数对一个数组中每个元素进行映射和多个数组中的元素进行操作的例子");
+
+//1. 使用map函数对数组中每个元素进行映射
+$myArray = [1, 2, 3, 4, 5];
+
+function multi($item): float|int
+{
+    return $item * 2;
+}
+
+$r = array_map('multi', $myArray);
+var_dump($r);
+
+// 2. 使用map函数对多个数组中的元素进行操作
+$a1 = [1, 2, 3, 4, 5];
+$a2 = [6, 7, 8, 9, 10];
+
+function addItem($ia, $ib)
+{
+    return $ia + $ib;
+}
+
+$r = array_map('addItem', $a1, $a2);
+var_dump($r);
+

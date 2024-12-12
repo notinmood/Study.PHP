@@ -3,7 +3,6 @@
 
 namespace CollectionStudy;
 
-
 $arr1 = [1, 4, 7, 11];
 
 $arr2 = [];

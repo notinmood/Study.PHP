@@ -10,9 +10,9 @@
 
 
 /**
- * @param $name
+ * @param string $name
  */
-function sayBye($name): void
+function sayBye(string $name): void
 {
     echo "Bye,$name";
 }

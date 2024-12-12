@@ -31,11 +31,10 @@
 // }
 
 
-
 // 闭包的例子
 function makeAdder($x): Closure
 {
-    return static function($y) use ($x) {
+    return static function ($y) use ($x) {
         return $x + $y;
     };
 }

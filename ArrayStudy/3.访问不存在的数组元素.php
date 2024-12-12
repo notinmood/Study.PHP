@@ -29,4 +29,5 @@ echo $a["d"] ?? ($a["d"] = "default"); // 输出: default
 
 // 访问不存在的元素，并设置默认值，并将其添加到数组中，并返回整个数组
 $a += ["d" => "default"];
+/** @noinspection all */
 print_r($a); // 输出: Array ( [a] => red [b] => green [c] => blue [d] => default )

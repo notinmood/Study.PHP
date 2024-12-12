@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table style="border-collapse: collapse; width: 900px; height: 56px; font-family: 宋体; font-size: 18px; position: relative;">
+    <tbody>
+    <tr style="height:75px;text-align:center" class="firstRow">
+        <td style="font-weight: bold;font-size:40px;text-align:center" colspan="8">
+            购 销 合 同
+        </td>
+    </tr>
+    <tr style="height:75px;">
+        <td colspan="8">
+             
+        </td>
+    </tr>
+    <tr style="height:32px;text-align:left">
+        <td style="font-weight: normal;" colspan="4">
+            买方：{buyer_company_name}
+        </td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal; text-align: right; word-break: break-all;">
+            合同编号：
+        </td>
+        <td style="font-weight: normal;" colspan="2">
+            {order_key}
+        </td>
+    </tr>
+    <tr style="height:32px">
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;text-align:right">
+            签订地点：
+        </td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+    </tr>
+    <tr style="height:32px">
+        <td style="font-weight: normal;" colspan="4">
+            卖方：{supply_company_name}
+        </td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal; text-align: right; word-break: break-all;">
+            签订时间：
+        </td>
+        <td style="font-weight: normal; word-break: break-all;" colspan="2">
+            {current_time}
+        </td>
+    </tr>
+    <tr style="height:32px">
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+        <td style="font-weight: normal;"></td>
+    </tr>
+    <tr style="height:75px;">
+        <td colspan="8">
+             
+        </td>
+    </tr>
+    <tr style="height:32px;text-align:left">
+        <td style="    font-weight: normal;" colspan="8">
+            第一、订单号码、产品规格型号、数量、单价、金额；
+        </td>
+    </tr>
+    <tr style="height:32px;text-align:center;font-size:14px">
+        <td style="border: 1px solid #ccc;font-weight: normal; width: 13%;text-align:center;font-size:14px;">
+            货物名称
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal; width: 16%;text-align:center;font-size:14px;">
+            品牌
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal; width: 10%;text-align:center;font-size:14px;">
+            型号规格
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal; width: 2%;text-align:center;font-size:14px;">
+            单位
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;width: 9%;text-align:center;font-size:14px;">
+            数量
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;width: 13%;text-align:center;font-size:14px;">
+            含税单价（元）
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;width: 12%;text-align:center;font-size:14px;">
+            金额（元）
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;width: 25%;text-align:center;font-size:14px;">
+            备注
+        </td>
+    </tr>
+    <tr style="height:32px;text-align:center;font-size:14px;text-align:center">
+        <td style="border: 1px solid #ccc;font-weight: normal;text-align:center;font-size:14px;">
+            {product_name}
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;text-align:center;font-size:14px;">
+            {product_brand}
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;text-align:center;font-size:14px;">
+            {product_type}
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;text-align:center;font-size:14px;">
+            吨
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;text-align:center;font-size:14px;">
+            {product_number}
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;text-align:center;font-size:14px;">
+            {order_amount}
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;text-align:center;font-size:14px;">
+            {order_amount}
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;text-align:center;font-size:14px;">
+            {buyer_remark}
+        </td>
+    </tr>
+    <tr style="height:32px;text-align:left;font-size:14px">
+        <td style="border: 1px solid #ccc;font-weight: normal;font-size:14px;" colspan="5">
+            合计人民币金额（大写）：{order_amount_capital}
+        </td>
+        <td style="border: 1px solid #ccc;font-weight: normal;font-size:14px;" colspan="3">
+            RMB {order_amount}
+        </td>
+    </tr>
+    <tr style="height:75px;">
+        <td colspan="8">
+             
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style="   font-weight: normal;" colspan="8">
+            <p style="margin:3px">
+                <span style="font-family:宋体">第二、交（提）货时间及地点、付款方式：                            <br/>  交（提）货 方式：买方到卖方指定仓库自提，出库费用及货权移交后的仓储费用由买方负责。                            <br/>  交（提）货时间和付款方式： 买方将全部货款于签订合同日16:30之前汇入供方指定账户，卖方收到货款后，买方可到卖方指定仓库提货。                        </span>
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style="font-weight: normal;" colspan="8">
+            <p style="margin:3px">
+                <span style="font-family: 宋体">第三条、 质量、包装标准：按《中华人民共和国国家标准》的规范GB/T 470-2008或按生产厂家提供的质量保证书为准。</span>
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style="  font-weight: normal;" colspan="8">
+            <p style="margin:3px">
+                <span style="font-family: 宋体">第四条、合理损耗标准及计算方法：允许合理磅差±2‰，超出合理磅差范围部分由买卖双方协商解决，交货尾差±5%，卖方提供相对应的生产厂出厂磅码单，按磅码单抄码重量结算。 </span>
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style="  font-weight: normal;" colspan="8">
+            <p style="margin:3px">
+                <span style="font-family: 宋体">第五条、检验标准、方法、地点及期限：按国家标准验收。如有异议，买方须在收货七天内提出，同时买方应保存异议货品留待卖方或第三方鉴定处理。 </span>
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style="   font-weight: normal;" colspan="8">
+            <p style="margin:3px">
+                <span style="font-family: 宋体">第六条、结算方式及期限：款到发货，买方应于提货前以电汇/汇票等方式支付全部货款；卖方开具17%增值税发票。</span>
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style="  font-weight: normal;" colspan="8">
+            <p style="margin:3px">
+                <span style="font-family: 宋体">第七条、违约责任：本合同受《中华人民共和国合同法》保护。买卖双方如有一方无法履行合同（不可抗力除外），由此造成的经济损失由违约方承担。遇不可抗力因素，不能履行本合同时，应及时通知对方，双方协商解决。</span>
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" font-weight: normal;" colspan="8">
+            <p style="margin:3px">
+                <span style="font-family: 宋体">第八条、合同争议的解决方式：本合同在履行过程中发生的争议，由双方当事人协商解决；协商不成任何一方均可向合同签订所在地有管辖权的人民法院提起诉讼。</span>
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" font-weight: normal;" colspan="8">
+            <p style="margin:3px">
+                <span style="font-family: 宋体">第九条、其他约定事项：本合同以传真方式签订，经双方盖章后生效，传真件与原件具有同等法律效力；与本合同有关的货权转移凭据及其传真件同具法律效力；有效期：自买卖双方签订合同之日起，至货款、发票结清之日为止。</span>
+            </p>
+        </td>
+    </tr>
+    <tr style="height:75px;">
+        <td colspan="8">
+             
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" border: 1px solid #ccc; text-align:center;  font-weight: normal;" colspan="5">
+            <p style="text-align:center">
+                <span style="font-family:宋体">买      方</span>
+            </p>
+        </td>
+        <td style=" border: 1px solid #ccc; text-align:center;  font-weight: normal;" colspan="3">
+            <p style="text-align:center">
+                <span style="font-family:宋体">卖      方</span>
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="5">
+            <p style="margin:3px">
+                <span style="font-family:宋体">单位名称（章）： </span>{buyer_company_name}
+            </p>
+        </td>
+        <td style="  border: 1px solid #ccc;  font-weight: normal;" colspan="3">
+            <p style="margin:3px">
+                <span style="font-family:宋体">单位名称（章）： </span>{supply_company_name}
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="5">
+            <p style="margin:3px">
+                <span style="font-family:宋体">单位地址：</span>{buyer_company_address}
+            </p>
+        </td>
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="3">
+            <p style="margin:3px">
+                <span style="font-family:宋体">单位地址：</span>{buyer_company_address}
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="5">
+            <p style="margin:3px">
+                <span style="font-family:宋体">法定代表人：</span>{buyer_representative}
+            </p>
+        </td>
+        <td style="  border: 1px solid #ccc;  font-weight: normal;" colspan="3">
+            <p style="margin:3px">
+                <span style="font-family:宋体">法定代表人：</span>{supply_representative}
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="5">
+            <p style="margin:3px">
+                <span style="font-family:宋体">委托代理人：</span>{buyer_representative_commissioned}
+            </p>
+        </td>
+        <td style="  border: 1px solid #ccc;  font-weight: normal;" colspan="3">
+            <p style="margin:3px">
+                <span style="font-family:宋体">委托代理人：</span>{supply_representative_commissioned}
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style="  border: 1px solid #ccc;  font-weight: normal;" colspan="5">
+            <p style="margin:3px">
+                <span style="font-family:宋体">电    话：</span>{buyer_mobile}
+            </p>
+        </td>
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="3">
+            <p style="margin:3px">
+                <span style="font-family:宋体">电    话：</span>{supply_mobile}
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="5">
+            <p style="margin:3px">
+                <span style="font-family:宋体">传    真：</span>{buyer_fax}
+            </p>
+        </td>
+        <td style="  border: 1px solid #ccc;  font-weight: normal;" colspan="3">
+            <p style="margin:3px">
+                <span style="font-family:宋体">传    真：</span>{supply_fax}
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="5">
+            <p style="margin:3px">
+                <span style="font-family:宋体">开户银行：</span>{buyer_opening_bank}
+            </p>
+        </td>
+        <td style="  border: 1px solid #ccc;  font-weight: normal;" colspan="3">
+            <p style="margin:3px">
+                <span style="font-family:宋体">开户银行：</span>{supply_opening_bank}
+            </p>
+        </td>
+    </tr>
+    <tr style="text-align:left">
+        <td style=" border: 1px solid #ccc;   font-weight: normal;" colspan="5">
+            <p style="margin:3px">
+                <span style="font-family:宋体">帐    号：</span>{buyer_bank_account}
+            </p>
+        </td>
+        <td style="  border: 1px solid #ccc;  font-weight: normal;" colspan="3">
+            <p style="margin:3px">
+                <span style="font-family:宋体">帐    号：</span>{supply_bank_account}
+            </p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

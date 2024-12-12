@@ -40,3 +40,5 @@ echo $privateMember() . PHP_EOL;
 //访问公有成员,就不必使用第三个参数将本闭包方法注入进入类型内部了.
 $publicMember = Closure::bind($cfPublic, $myObject);
 echo $publicMember() . PHP_EOL;
+
+var_dump($publicMember);

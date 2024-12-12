@@ -8,13 +8,4 @@
  * @company: HiLand & RainyTop
  */
 
-
-$myArray = [1, 2, 3, 4, 5];
-
-function multi($item)
-{
-    return $item * 2;
-}
-
-$r = array_map('multi', $myArray);
-var_dump($r);
+//更多使用，请参考本地目录`ArrayStudy`下的相关文件
