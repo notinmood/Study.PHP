@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHPStudy\Test;
+namespace PHPStudy\_Test;
 
 use Hiland\Utils\Config\ConfigHelper;
 use PHPUnit\Framework\TestCase;

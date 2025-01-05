@@ -16,7 +16,7 @@ class CollegeStudent extends Student implements CanWork
     /**
      * @return void
      */
-    public function work()
+    public function work(): void
     {
         echo "大学生可以工作了";
     }

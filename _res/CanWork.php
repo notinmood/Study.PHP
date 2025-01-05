@@ -12,5 +12,5 @@ namespace PHPStudy\_res;
 
 interface CanWork
 {
-    public function work();
+    public function work(): void;
 }
