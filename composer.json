@@ -21,7 +21,7 @@
     "minimum-stability": "dev",
     "require": {
         "PHP": "^8.0",
-        "topthink/think-orm": "2.*",
+        "topthink/think-orm": "^3.0",
         "monolog/monolog": "2.3.2",
         "hiland/basiclibrary.php": "dev-master",
         "xaboy/form-builder": "~2.0",
