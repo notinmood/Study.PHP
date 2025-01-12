@@ -12,9 +12,7 @@ require "../vendor/autoload.php";
 
 use Mpdf\Mpdf;
 use Hiland\Utils\IO\FileHelper;
-use Hiland\Utils\Data\StringHelper;
 
-StringHelper::getLength("UTF-8");
 
 $path = "E:\\myworkspace\\Study.PHP\\PDFStudy\\";
 $html= FileHelper::getEncodingContent($path."02.表格内容.html");
