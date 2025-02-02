@@ -8,8 +8,9 @@
  * @company: HiLand & RainyTop
  */
 
-use PHPStudy\调试与跟踪\debug_backTrace\B;
+use PHPStudy\调试与跟踪\simpleDemo\B;
 
 require "../../../vendor/autoload.php";
 
-B::Bar();
+$result = B::Bar();
+print($result);

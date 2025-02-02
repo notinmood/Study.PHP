@@ -8,14 +8,13 @@
  * @company: HiLand & RainyTop
  */
 
-namespace PHPStudy\调试与跟踪\debug_backTrace;
+namespace PHPStudy\调试与跟踪\simpleDemo;
 
 class B
 {
     public static function Bar(): string
     {
         $a = A::Foo();
-
-        return "B::Bar" . $a;
+        return "B::Bar/" . $a;
     }
 }

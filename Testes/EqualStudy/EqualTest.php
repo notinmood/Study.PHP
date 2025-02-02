@@ -42,18 +42,18 @@ class EqualTest extends TestCase
     private function _testNull($targetData)
     {
         $nullData = null;
-        $actual = false;
+        $actual   = false;
         if ($targetData == $nullData) {
             $actual = true;
         }
-        self::assertEquals(true, $actual);
+        self::assertTrue($actual);
 
 
         $actual = false;
         if ($targetData === $nullData) {
             $actual = true;
         }
-        self::assertEquals(false, $actual);
+        self::assertFalse($actual);
     }
 
     /**
@@ -62,8 +62,8 @@ class EqualTest extends TestCase
      */
     public function testEqual()
     {
-        $a = 1;
-        $b = "1";
+        $a      = 1;
+        $b      = "1";
         $actual = false;
         if ($a == $b) {
             $actual = true;
@@ -76,16 +76,16 @@ class EqualTest extends TestCase
         }
         self::assertEquals(false, $actual);
 
-        $a = false;
-        $b = "";
+        $a      = false;
+        $b      = "";
         $actual = false;
         if ($a == $b) {
             $actual = true;
         }
         self::assertEquals(true, $actual);
 
-        $a = false;
-        $b = "0";
+        $a      = false;
+        $b      = "0";
         $actual = false;
         if ($a == $b) {
             $actual = true;
