@@ -1,0 +1,61 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+'在回复的消息中,将文字显示在箭头下方
+skinparam responseMessageBelowArrow true
+
+'启用自动编号
+autonumber
+
+孙中山 -> 卢慕贞:结婚()
+note left:1885年19岁
+note right:18岁
+
+孙中山 -> 陈粹芬:娶为侧室()
+note left:1891年24岁
+note right:18岁
+
+孙中山 -> 宋庆龄:初次见面()
+note left:1894年28岁
+note right:1岁
+
+孙中山 -> 浅田春:逃亡日本后认识()
+note left:1897年31岁
+note right:15岁
+
+孙中山 -> 大月薰:认识()
+note left:1898年32岁
+note right:10岁
+
+孙中山 -> 浅田春:去旅馆()
+note left:1900年34岁
+note right:18岁
+
+孙中山 -> 卢慕贞:提出离婚()
+note left:1901年35岁
+activate 卢慕贞
+
+孙中山 -> 大月薰:向其父提亲()
+note left:1902年36岁
+note right:14岁
+
+孙中山 <-[#0000FF]- 大月薰:父亲拒绝()
+孙中山 -> 大月薰:订婚()
+note left:1903年37岁
+note right:15岁
+
+孙中山 -> 大月薰:正式成亲()
+note left:1904年38岁
+note right:16岁
+
+孙中山 -> 卢慕贞:正式离婚()
+note left:1915年49岁
+note right:48岁
+deactivate 卢慕贞
+
+孙中山 -> 宋庆龄:结婚()
+note right:22岁
+孙中山 -> 孙中山:去世()
+note left:1926年59岁
+
+@enduml
