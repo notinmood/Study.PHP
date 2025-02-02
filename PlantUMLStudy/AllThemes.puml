@@ -1,9 +1,0 @@
- /**
- *列出所以支持的theme
- */
-
-@startuml
-help theme
-@enduml
-
-

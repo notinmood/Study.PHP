@@ -5,11 +5,11 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "PHPStudy\\": "",
-            "PHP\\Study\\": ""
+            "PHPStudy\\": "src",
+            "PHP\\Study\\": "src"
         },
         "files": [
-            "Common/helper.php"
+            "src/Common/helper.php"
         ]
     },
     "authors": [
@@ -20,7 +20,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "PHP": "^8.0",
+        "PHP": "^8.2",
         "topthink/think-orm": "^3.0",
         "monolog/monolog": "2.3.2",
         "hiland/basiclibrary.php": "dev-master",

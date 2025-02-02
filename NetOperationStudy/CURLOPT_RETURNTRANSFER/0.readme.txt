@@ -1,2 +1,0 @@
-使用PHP curl获取页面内容或提交数据，有时候希望返回的内容作为变量储存，而不是直接输出。
-这个时候就必需设置curl的CURLOPT_RETURNTRANSFER选项为1或true。
