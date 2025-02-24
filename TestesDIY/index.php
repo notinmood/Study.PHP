@@ -8,11 +8,11 @@
  * @company: HiLand & RainyTop
  */
 
-use Hiland\Utils\Config\ConfigHelper;
+use Hiland\Config\ConfigClient;
 
-require "../../vendor/autoload.php";
+require "../vendor/autoload.php";
 /**
  * 测试 .env 文件的加载
  */
-$actual = ConfigHelper::getEnv("database_mysql.username");
-dump($actual);
+$actual = ConfigClient::getEnv("database_mysql.username");
+var_dump($actual);
