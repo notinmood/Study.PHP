@@ -8,7 +8,7 @@
  * @company: HiLand & RainyTop
  */
 
-use Hiland\Utils\Data\ObjectHelper;
+use Hiland\Data\ObjectHelper;
 
 require "../../vendor/autoload.php";
 
@@ -18,37 +18,71 @@ require "../../vendor/autoload.php";
  *  -在对一个undefined变量的判断时，empty没有问题,但if()会出现警告
  */
 
+
+/**
+ * @param mixed $something
+ * @return void
+ */
+function determine(mixed $something): void
+{
+    if ($something) {
+        echo "YYY- 这是直接判断的情况,有值";
+    } else {
+        echo "NNN- 这是直接判断的情况,没值";
+    }
+
+    echo PHP_EOL;
+
+    if (!empty($something)) {
+        echo "YYY- 这是用!empty判断的情况,有值";
+    } else {
+        echo "NNN- 这是用!empty判断的情况,没值";
+    }
+
+    echo PHP_EOL;
+
+    if (ObjectHelper::isExist($something)) {
+        echo "YYY- 这是用ObjectHelper判断的情况,有值";
+    } else {
+        echo "NNN- 这是用ObjectHelper判断的情况,没值";
+    }
+
+    echo PHP_EOL;
+
+    if (exist($something)) {
+        echo "YYY- 这是用自定义exist判断的情况,有值";
+    } else {
+        echo "NNN- 这是用自定义exist判断的情况,没值";
+    }
+
+    echo PHP_EOL;
+}
+
+echo ">>> 判断字符串是否存在" . PHP_EOL;
 $something = "something";
-unset($something);
+determine($something);
 
-if ($something) {
-    echo "YYY- 这是直接判断的情况,有值";
-} else {
-    echo "NNN- 这是直接判断的情况,没值";
-};
+echo ">>> 判断空字符串是否存在" . PHP_EOL;
+$something = "";
+determine($something);
 
-echo PHP_EOL;
+echo ">>> 判断数字是否存在" . PHP_EOL;
+determine(123);
+determine(0);
+determine(-1);
 
-if (!empty($something)) {
-    echo "YYY- 这是用!empty判断的情况,有值";
-} else {
-    echo "NNN- 这是用!empty判断的情况,没值";
-};
-
-echo PHP_EOL;
+echo ">>> 判断bool类型是否存在" . PHP_EOL;
+determine(true);
+determine(false);
 
 
-if (ObjectHelper::isExist($something)) {
-    echo "YYY- 这是用ObjectHelper判断的情况,有值";
-} else {
-    echo "NNN- 这是用ObjectHelper判断的情况,没值";
-};
+echo ">>> 判断null类型是否存在" . PHP_EOL;
+determine(null);
 
-echo PHP_EOL;
-if (exist($something)) {
-    echo "YYY- 这是用自定义exist判断的情况,有值";
-} else {
-    echo "NNN- 这是用自定义exist判断的情况,没值";
-};
+echo ">>> 判断数组类型是否存在" . PHP_EOL;
+determine([1, 2, 3]);
+determine([]);
 
-
+echo ">>> 判断数组元素是否存在" . PHP_EOL;
+$target = ["a", "b", "c"];
+determine($target["d"]);
